@@ -1,0 +1,171 @@
+/* Estilos base */
+.opcionhome {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.tabla-riego {
+  min-width: 600px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin: auto;
+}
+
+.tabla-riego th,
+.tabla-riego td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabla-riego thead {
+  background-color: #d9f99d;
+  color: #166534;
+}
+
+.amarillo {
+  color: #d97706;
+}
+
+.verde {
+  color: #16a34a;
+}
+
+/* Botones */
+.btn {
+  background-color: #38a169;
+  color: white;
+  padding: 6px 10px;
+  margin: 2px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #2f855a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .opcionhome {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .btn {
+    display: block;
+    margin: 4px auto;
+    width: 100%;
+    max-width: 120px;
+  }
+
+  .tabla-riego {
+    min-width: 600px; /* Forza scroll horizontal */
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+/*plantas*/ 
+/* Estilos base para listado de plantas */
+.tabla-plantas {
+  min-width: 500px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin: auto;
+}
+
+.tabla-plantas th,
+.tabla-plantas td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabla-plantas thead {
+  background-color: #d9f99d;
+  color: #166534;
+}
+
+/* Colores de estado */
+.amarillo {
+  color: #d97706; /* amarillo Tailwind */
+}
+
+.verde {
+  color: #16a34a; /* verde Tailwind */
+}
+
+.azul {
+  color: #2563eb; /* azul Tailwind */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .opcionhome {
+    font-size: 18px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .tabla-plantas {
+    min-width: 500px;
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+/*configuracion*/
+/* Estilos base para configuración de riego */
+.tabla-configuracion {
+  min-width: 700px;
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin: auto;
+}
+
+.tabla-configuracion th,
+.tabla-configuracion td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.tabla-configuracion thead {
+  background-color: #d9f99d; /* verde claro */
+  color: #166534; /* verde oscuro */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .opcionhome {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .tabla-configuracion {
+    min-width: 700px; /* Forzar scroll horizontal en móviles */
+  }
+
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
