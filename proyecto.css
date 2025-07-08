@@ -6,7 +6,7 @@
 }
 
 body {
-background-image: url(./Img/plantasfondo.jpg) ;
+background-image: url(plantasfondo.jpg) ;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
